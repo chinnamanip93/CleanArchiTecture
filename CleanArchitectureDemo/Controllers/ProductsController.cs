@@ -7,6 +7,7 @@ namespace CleanArchitectureDemo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    // product controller api
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
