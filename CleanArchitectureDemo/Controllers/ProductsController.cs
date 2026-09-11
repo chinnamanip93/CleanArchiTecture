@@ -27,6 +27,8 @@ namespace CleanArchitectureDemo.Controllers
         {
             await _productService.AddAsync(dto);
 
+
+
             return Ok();
         }
         [HttpPut]
